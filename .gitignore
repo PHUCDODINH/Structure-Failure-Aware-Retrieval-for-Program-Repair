@@ -1,0 +1,48 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.venv*/
+venv/
+env/
+
+# IDE and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated benchmark workspaces
+temp_*/
+temp_pybughive*/
+temp_quixbugs/
+
+# Large/generated datasets, indexes, and cloned repos
+data/indexes/
+data/codegen_index/
+data/external_sources/
+data/*.index
+data/corpora/*.jsonl
+
+# Raw/generated experiment outputs
+experiments/*
+!experiments/*.md
+!experiments/case_studies/
+!experiments/case_studies/**/*.md
+
+# Backups and logs
+backups/
+*.log
+
+# Packaging/build outputs
+build/
+dist/
+*.egg-info/

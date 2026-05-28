@@ -1,0 +1,41 @@
+{
+  "input_count": 551,
+  "kept_count": 277,
+  "removed_count": 274,
+  "excluded_projects": [
+    "black",
+    "pandas",
+    "jax",
+    "freqtrade",
+    "spacy",
+    "poetry",
+    "salt",
+    "cookiecutter",
+    "scrapy",
+    "discord.py",
+    "numpy"
+  ],
+  "excluded_project_keys": [
+    "black",
+    "cookiecutter",
+    "discordpy",
+    "freqtrade",
+    "jax",
+    "numpy",
+    "pandas",
+    "poetry",
+    "salt",
+    "scrapy",
+    "spacy"
+  ],
+  "removed_by_project": {
+    "black": 23,
+    "cookiecutter": 6,
+    "pandas": 193,
+    "scrapy": 41,
+    "spacy": 11
+  },
+  "input_path": "data/indexes/repair_clean/meta.jsonl",
+  "output_path": "data/corpora/repair_clean_holdout_pybughive_projects.jsonl",
+  "profile": null
+}

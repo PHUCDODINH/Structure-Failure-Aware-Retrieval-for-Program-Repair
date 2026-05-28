@@ -1,0 +1,22 @@
+[
+  {
+    "problem": "black-385",
+    "category": "win_structured",
+    "file": "experiments/case_studies/pybughive_black_gpt4o_v3/win_structured__black-385.md"
+  },
+  {
+    "problem": "black-130",
+    "category": "loss_structured",
+    "file": "experiments/case_studies/pybughive_black_gpt4o_v3/loss_structured__black-130.md"
+  },
+  {
+    "problem": "black-133",
+    "category": "loss_structured",
+    "file": "experiments/case_studies/pybughive_black_gpt4o_v3/loss_structured__black-133.md"
+  },
+  {
+    "problem": "black-334",
+    "category": "interesting_tie",
+    "file": "experiments/case_studies/pybughive_black_gpt4o_v3/interesting_tie__black-334.md"
+  }
+]
